@@ -36,8 +36,8 @@ class MainMenuState extends MusicBeatState
 	var optionShit:Array<String> = [
 		'story_mode',
 		'freeplay',
-		#if MODS_ALLOWED 'mods', #end
-		#if ACHIEVEMENTS_ALLOWED 'awards', #end
+		#if MODS_ALLOWED 'none', #end
+		#if ACHIEVEMENTS_ALLOWED 'none', #end
 		'credits',
 		#if !switch 'donate', #end
 		'options'
